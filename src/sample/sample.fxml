@@ -47,14 +47,15 @@
                   <Font size="15.0" />
                </font>
             </Label>
-            <TextArea fx:id="phoneNumberField" layoutX="139.0" layoutY="199.0" prefHeight="23.0" prefWidth="345.0" visible="false" />
+            <TextArea fx:id="phoneNumberField" layoutX="139.0" layoutY="199.0" prefHeight="23.0" prefWidth="185.0" visible="false" />
             <Button layoutX="118.0" layoutY="257.0" mnemonicParsing="false" onAction="#sendText" prefHeight="63.0" prefWidth="265.0" text="Send Text" />
-            <ChoiceBox fx:id="phonebookChoice" layoutX="196.0" layoutY="191.0" prefHeight="23.0" prefWidth="247.0" />
-            <Label fx:id="chooseFromPhonebook" layoutX="14.0" layoutY="192.0" prefHeight="23.0" prefWidth="172.0" text="Choose from phonebook:">
+            <ChoiceBox fx:id="phonebookChoice" layoutX="196.0" layoutY="191.0" prefHeight="25.0" prefWidth="192.0" visible="false" />
+            <Label fx:id="chooseFromPhonebook" layoutX="14.0" layoutY="192.0" prefHeight="23.0" prefWidth="172.0" text="Choose from phonebook:" visible="false">
                <font>
                   <Font size="15.0" />
                </font>
             </Label>
+            <Button fx:id="contactAdd" layoutX="342.0" layoutY="198.0" mnemonicParsing="false" onAction="#addContact" text="Add number to contacts" visible="false" />
          </children>
       </Pane>
    </children>
